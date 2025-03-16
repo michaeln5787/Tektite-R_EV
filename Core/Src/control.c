@@ -237,7 +237,7 @@ void DataInit() {
 	if (initialized != 1) {
 		LEDWrite(255, 0, 0);
 		ticks_per_m = 146.1;
-		dist = 7.0f;
+		dist = 8.5;
 		accel_dist = 0.5;
 		decel_dist = 1.5;
 		DataWrite();
